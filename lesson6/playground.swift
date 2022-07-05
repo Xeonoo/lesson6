@@ -49,3 +49,17 @@ func myFunc(subTotal a:Double, tax b:Double) -> Double {
 }
 
 print(myFunc(subTotal: 20.5,tax: 1.16))
+
+
+struct Car {
+//    properties
+    var make = "Ford"
+    var model = "Focus"
+    var year = "2002"
+    var details:String{
+        make + model + year
+    }
+    func cars() -> String {
+        return details
+    }
+}
