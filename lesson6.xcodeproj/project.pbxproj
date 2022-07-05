@@ -14,6 +14,7 @@
 		29EEEE942874220F0096278E /* lesson6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EEEE932874220F0096278E /* lesson6Tests.swift */; };
 		29EEEE9E2874220F0096278E /* lesson6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EEEE9D2874220F0096278E /* lesson6UITests.swift */; };
 		29EEEEA02874220F0096278E /* lesson6UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EEEE9F2874220F0096278E /* lesson6UITestsLaunchTests.swift */; };
+		29EEEEAD2874238C0096278E /* playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EEEEAC2874238C0096278E /* playground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		29EEEE992874220F0096278E /* lesson6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lesson6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EEEE9D2874220F0096278E /* lesson6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson6UITests.swift; sourceTree = "<group>"; };
 		29EEEE9F2874220F0096278E /* lesson6UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson6UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		29EEEEAC2874238C0096278E /* playground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				29EEEE842874220B0096278E /* ContentView.swift */,
 				29EEEE862874220F0096278E /* Assets.xcassets */,
 				29EEEE882874220F0096278E /* Preview Content */,
+				29EEEEAC2874238C0096278E /* playground.swift */,
 			);
 			path = lesson6;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29EEEEAD2874238C0096278E /* playground.swift in Sources */,
 				29EEEE852874220B0096278E /* ContentView.swift in Sources */,
 				29EEEE832874220B0096278E /* lesson6App.swift in Sources */,
 			);
