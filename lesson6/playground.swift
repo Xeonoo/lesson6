@@ -63,3 +63,14 @@ struct Car {
         return details
     }
 }
+
+
+struct MyStruckture {
+    
+    var message = "Hello"
+    
+    func MyFunction(){
+        print(message)
+    }
+}
+MyStruckture()
