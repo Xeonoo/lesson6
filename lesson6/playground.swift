@@ -34,3 +34,18 @@ var subtotal2 = (subTotal-taxes)
 var price = (subTotal/people)
 split = price
 print(split)
+
+
+/*func myFunc(comp a:String) -> String {
+    return a
+}
+
+print(myFunc(comp: "Goodmorning!"))
+
+*/
+func myFunc(subTotal a:Double, tax b:Double) -> Double {
+    
+    return a*b
+}
+
+print(myFunc(subTotal: 20.5,tax: 1.16))
